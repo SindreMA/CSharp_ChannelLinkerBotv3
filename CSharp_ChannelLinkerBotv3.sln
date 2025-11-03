@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_ChannelLinkerBotv3", "CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3.csproj", "{A039056A-6FDE-1B65-584E-B9D92D9523AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp_ChannelLinkerBotv3 (1)", "CSharp_ChannelLinkerBotv3 (1)", "{54860414-C2B8-B867-4133-049EED74FA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_ChannelLinkerBotv3", "CSharp_ChannelLinkerBotv3\OldVersion\CSharp_ChannelLinkerBotv3.csproj", "{FB9C222B-172A-DE4D-F20D-3403883FB1E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A039056A-6FDE-1B65-584E-B9D92D9523AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A039056A-6FDE-1B65-584E-B9D92D9523AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A039056A-6FDE-1B65-584E-B9D92D9523AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A039056A-6FDE-1B65-584E-B9D92D9523AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9C222B-172A-DE4D-F20D-3403883FB1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9C222B-172A-DE4D-F20D-3403883FB1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9C222B-172A-DE4D-F20D-3403883FB1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9C222B-172A-DE4D-F20D-3403883FB1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB9C222B-172A-DE4D-F20D-3403883FB1E6} = {54860414-C2B8-B867-4133-049EED74FA6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86173C1D-8B46-4996-A332-8ADD8F17AADD}
+	EndGlobalSection
+EndGlobal

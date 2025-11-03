@@ -1,0 +1,1 @@
+dotnet run --project "C:\Programs\ConsoleReporter\ConsoleReporter.csproj" "ChannelLinkerBotv3" "CSharp_ChannelLinkerBotv3.exe" "" "C:\Bots\CSharp_ChannelLinkerBotv3\bin\Debug"

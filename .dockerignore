@@ -1,0 +1,54 @@
+# Build results
+**/bin/
+**/obj/
+**/out/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options directory
+.vs/
+
+# IDE files
+.vscode/
+.idea/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+
+# Docker files themselves
+Dockerfile*
+.dockerignore
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README*
+
+# Old version folder
+**/OldVersion/
+
+# Temporary files
+*.tmp
+*.temp
+*.log

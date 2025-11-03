@@ -1,0 +1,7 @@
+*/obj
+*/Properties
+*/.vs
+.env
+*.env
+!.env.example
+CSharp_ChannelLinkerBotv3/OldVersion/

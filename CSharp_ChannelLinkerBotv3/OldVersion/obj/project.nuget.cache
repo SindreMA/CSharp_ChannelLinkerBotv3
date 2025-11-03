@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "dgSpecHash": "b8UYH4roeEs=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SindreMA\\.nuget\\packages\\discord.net\\2.0.0\\discord.net.2.0.0.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\discord.net.commands\\2.0.0\\discord.net.commands.2.0.0.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\discord.net.core\\2.0.0\\discord.net.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\discord.net.websocket\\2.0.0\\discord.net.websocket.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net (>= 2.0.0-beta-00880) but Discord.Net 2.0.0-beta-00880 was not found. Discord.Net 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net.Commands (>= 2.0.0-beta-00880) but Discord.Net.Commands 2.0.0-beta-00880 was not found. Discord.Net.Commands 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net.Commands",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net.Core (>= 2.0.0-beta-00880) but Discord.Net.Core 2.0.0-beta-00880 was not found. Discord.Net.Core 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net.WebSocket (>= 2.0.0-beta-00880) but Discord.Net.WebSocket 2.0.0-beta-00880 was not found. Discord.Net.WebSocket 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net.WebSocket",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Discord.Net.Commands 2.0.0 is not compatible with net452 (.NETFramework,Version=v4.5.2). Package Discord.Net.Commands 2.0.0 supports:\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - netstandard1.3 (.NETStandard,Version=v1.3)\r\n  - netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Discord.Net.Commands",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Discord.Net.Core 2.0.0 is not compatible with net452 (.NETFramework,Version=v4.5.2). Package Discord.Net.Core 2.0.0 supports:\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - netstandard1.3 (.NETStandard,Version=v1.3)\r\n  - netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Discord.Net.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Discord.Net.WebSocket 2.0.0 is not compatible with net452 (.NETFramework,Version=v4.5.2). Package Discord.Net.WebSocket 2.0.0 supports:\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - netstandard1.3 (.NETStandard,Version=v1.3)\r\n  - netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Discord.Net.WebSocket",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    }
+  ]
+}

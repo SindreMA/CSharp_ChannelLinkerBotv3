@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj",
+        "projectName": "CSharp_ChannelLinkerBotv3",
+        "projectPath": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj",
+        "packagesPath": "C:\\Users\\SindreMA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\SindreMA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.0.0-beta-00880, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.0.0-beta-00880, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.0.0-beta-00880, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.0.0-beta-00880, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

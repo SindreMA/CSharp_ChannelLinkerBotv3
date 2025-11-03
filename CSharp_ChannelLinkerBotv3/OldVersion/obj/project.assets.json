@@ -1,0 +1,217 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "Discord.Net/2.0.0": {
+        "type": "package"
+      },
+      "Discord.Net.Commands/2.0.0": {
+        "type": "package"
+      },
+      "Discord.Net.Core/2.0.0": {
+        "type": "package"
+      },
+      "Discord.Net.WebSocket/2.0.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Discord.Net/2.0.0": {
+      "sha512": "nW/5FR2+U7IAmHc8F2Kl3e+4WPVqpxXuo7Ydauc8QL0XaobToYCIKvqKyUTCKzXVLECdoZ3RrInsqfqWR3oVHg==",
+      "type": "package",
+      "path": "discord.net/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.2.0.0.nupkg.sha512",
+        "discord.net.nuspec"
+      ]
+    },
+    "Discord.Net.Commands/2.0.0": {
+      "sha512": "zByVTcsElX1fVd0XvUuQBPpfEwr/Mtmi9nfxDbjX/iHu3h0oPzK2TnNmAf7/1d90e4Uo/e7Rjetug9NrJdIcgg==",
+      "type": "package",
+      "path": "discord.net.commands/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.commands.2.0.0.nupkg.sha512",
+        "discord.net.commands.nuspec",
+        "lib/net46/Discord.Net.Commands.dll",
+        "lib/net46/Discord.Net.Commands.xml",
+        "lib/netstandard1.3/Discord.Net.Commands.dll",
+        "lib/netstandard1.3/Discord.Net.Commands.xml",
+        "lib/netstandard2.0/Discord.Net.Commands.dll",
+        "lib/netstandard2.0/Discord.Net.Commands.xml"
+      ]
+    },
+    "Discord.Net.Core/2.0.0": {
+      "sha512": "HoyRpjt9zhGU+vBRj7DOoiGFcy9rMuTHJ54Sr1yUKtieuOuqbXKVAip3RUZCxhe7Mclh9L00HLrvsr9JaL2A4g==",
+      "type": "package",
+      "path": "discord.net.core/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.core.2.0.0.nupkg.sha512",
+        "discord.net.core.nuspec",
+        "lib/net46/Discord.Net.Core.dll",
+        "lib/net46/Discord.Net.Core.xml",
+        "lib/netstandard1.3/Discord.Net.Core.dll",
+        "lib/netstandard1.3/Discord.Net.Core.xml",
+        "lib/netstandard2.0/Discord.Net.Core.dll",
+        "lib/netstandard2.0/Discord.Net.Core.xml"
+      ]
+    },
+    "Discord.Net.WebSocket/2.0.0": {
+      "sha512": "FlpLd5udbHD7WUxFUnkSvOa3P4Sfjm7LUIwrd/H2MB06Si0vwzD8pb2P+yMvxVpAoWBkx29+vgiMxok3ncW0Xw==",
+      "type": "package",
+      "path": "discord.net.websocket/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.websocket.2.0.0.nupkg.sha512",
+        "discord.net.websocket.nuspec",
+        "lib/net46/Discord.Net.WebSocket.dll",
+        "lib/net46/Discord.Net.WebSocket.xml",
+        "lib/netstandard1.3/Discord.Net.WebSocket.dll",
+        "lib/netstandard1.3/Discord.Net.WebSocket.xml",
+        "lib/netstandard2.0/Discord.Net.WebSocket.dll",
+        "lib/netstandard2.0/Discord.Net.WebSocket.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "Discord.Net >= 2.0.0-beta-00880",
+      "Discord.Net.Commands >= 2.0.0-beta-00880",
+      "Discord.Net.Core >= 2.0.0-beta-00880",
+      "Discord.Net.WebSocket >= 2.0.0-beta-00880"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SindreMA\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj",
+      "projectName": "CSharp_ChannelLinkerBotv3",
+      "projectPath": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\CSharp_ChannelLinkerBotv3.csproj",
+      "packagesPath": "C:\\Users\\SindreMA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SindreMA\\Desktop\\CSharp_ChannelLinkerBotv3\\CSharp_ChannelLinkerBotv3\\OldVersion\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
+      "configFilePaths": [
+        "C:\\Users\\SindreMA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {}
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "Discord.Net": {
+            "target": "Package",
+            "version": "[2.0.0-beta-00880, )"
+          },
+          "Discord.Net.Commands": {
+            "target": "Package",
+            "version": "[2.0.0-beta-00880, )"
+          },
+          "Discord.Net.Core": {
+            "target": "Package",
+            "version": "[2.0.0-beta-00880, )"
+          },
+          "Discord.Net.WebSocket": {
+            "target": "Package",
+            "version": "[2.0.0-beta-00880, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net (>= 2.0.0-beta-00880) but Discord.Net 2.0.0-beta-00880 was not found. Discord.Net 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net.Commands (>= 2.0.0-beta-00880) but Discord.Net.Commands 2.0.0-beta-00880 was not found. Discord.Net.Commands 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net.Commands",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net.Core (>= 2.0.0-beta-00880) but Discord.Net.Core 2.0.0-beta-00880 was not found. Discord.Net.Core 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CSharp_ChannelLinkerBotv3 depends on Discord.Net.WebSocket (>= 2.0.0-beta-00880) but Discord.Net.WebSocket 2.0.0-beta-00880 was not found. Discord.Net.WebSocket 2.0.0 was resolved instead.",
+      "libraryId": "Discord.Net.WebSocket",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Discord.Net.Commands 2.0.0 is not compatible with net452 (.NETFramework,Version=v4.5.2). Package Discord.Net.Commands 2.0.0 supports:\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - netstandard1.3 (.NETStandard,Version=v1.3)\r\n  - netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Discord.Net.Commands",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Discord.Net.Core 2.0.0 is not compatible with net452 (.NETFramework,Version=v4.5.2). Package Discord.Net.Core 2.0.0 supports:\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - netstandard1.3 (.NETStandard,Version=v1.3)\r\n  - netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Discord.Net.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Discord.Net.WebSocket 2.0.0 is not compatible with net452 (.NETFramework,Version=v4.5.2). Package Discord.Net.WebSocket 2.0.0 supports:\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - netstandard1.3 (.NETStandard,Version=v1.3)\r\n  - netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Discord.Net.WebSocket",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5.2"
+      ]
+    }
+  ]
+}

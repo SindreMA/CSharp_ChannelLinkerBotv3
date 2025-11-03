@@ -1,0 +1,35 @@
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\CSharp_ChannelLinkerBotv3.exe.config
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\CSharp_ChannelLinkerBotv3.exe
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\CSharp_ChannelLinkerBotv3.pdb
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Commands.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Core.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Rest.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Webhook.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.WebSocket.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\Newtonsoft.Json.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\System.Collections.Immutable.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\System.Interactive.Async.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.csproj.CSharp_ChannelLinkerBotv3.exe.config
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.exe
+c:\users\sindre\documents\visual studio 2017\Projects\CSharp_ChannelLinkerBotv3\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.pdb
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\CSharp_ChannelLinkerBotv3.exe.config
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\CSharp_ChannelLinkerBotv3.exe
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\CSharp_ChannelLinkerBotv3.pdb
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Commands.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Core.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Rest.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.Webhook.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Discord.Net.WebSocket.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\Newtonsoft.Json.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\System.Collections.Immutable.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\System.Interactive.Async.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.csprojResolveAssemblyReference.cache
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.csproj.CSharp_ChannelLinkerBotv3.exe.config
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.exe
+C:\Bots\CSharp_Updated_Bots\CSharp_ChannelLinkerBotv3\obj\Debug\CSharp_ChannelLinkerBotv3.pdb
