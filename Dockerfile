@@ -22,5 +22,11 @@ FROM mcr.microsoft.com/dotnet/core/runtime:3.1 AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
+# Create config directory
+RUN mkdir -p /app/config
+
+# Set environment variable to use the config directory
+ENV CONFIG_DIR=/app/config
+
 # Run the application
 ENTRYPOINT ["dotnet", "CSharp_ChannelLinkerBotv3.dll"]

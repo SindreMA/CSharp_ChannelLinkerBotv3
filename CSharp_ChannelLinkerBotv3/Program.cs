@@ -27,13 +27,27 @@ namespace TemplateBot
         }
         public async Task StartAsync()
         {
-            // Load environment variables from .env file
-            Env.Load();
+            // Load environment variables from .env file in config directory
+            string envPath = ConfigHelper.EnvFilePath;
+            if (System.IO.File.Exists(envPath))
+            {
+                Env.Load(envPath);
+                await Log($"Loaded .env from {envPath}", ConsoleColor.Green);
+            }
+            else
+            {
+                await Log($"WARNING: .env file not found at {envPath}, trying local .env", ConsoleColor.Yellow);
+                if (System.IO.File.Exists(".env"))
+                {
+                    Env.Load();
+                }
+            }
+
             string token = Environment.GetEnvironmentVariable("DISCORD_BOT_TOKEN");
 
             if (string.IsNullOrEmpty(token))
             {
-                await Log("ERROR: DISCORD_BOT_TOKEN not found in .env file", ConsoleColor.Red);
+                await Log("ERROR: DISCORD_BOT_TOKEN not found in environment variables", ConsoleColor.Red);
                 return;
             }
 

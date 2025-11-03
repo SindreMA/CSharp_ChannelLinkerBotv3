@@ -38,7 +38,7 @@ namespace TemplateBot
             try
             {
 
-                string json = File.ReadAllText("GuildSettingsList.json");
+                string json = File.ReadAllText(ConfigHelper.GuildSettingsListPath);
                 GuildSettingsList = JsonConvert.DeserializeObject<List<GuildSettingsDTO>>(json);
 
                 /*
@@ -64,7 +64,7 @@ namespace TemplateBot
             try
             {
 
-                string json = File.ReadAllText("ChannelsLinked.json");
+                string json = File.ReadAllText(ConfigHelper.ChannelsLinkedPath);
                 ChannelsLinkedList = JsonConvert.DeserializeObject<List<ChannelLinkDTO>>(json);
 
         
@@ -75,7 +75,7 @@ namespace TemplateBot
             try
             {
 
-                string json = File.ReadAllText("MessagePrefix.json");
+                string json = File.ReadAllText(ConfigHelper.MessagePrefixPath);
                 MessagePrefixList = JsonConvert.DeserializeObject<List<MessagePrefixDTO>>(json);
             }
             catch (Exception)

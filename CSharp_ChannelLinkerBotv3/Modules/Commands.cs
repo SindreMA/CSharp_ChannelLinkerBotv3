@@ -66,7 +66,7 @@ namespace ChannelLinkerBot.Modules
                         setting.LinkMode = ChannelLinkDTO.Modes.TextOnly;
                         message = $@"Link mode for channellink { linkID} is set to 'Text only'";
                     }
-                    File.WriteAllText("ChannelsLinked.json", JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
+                    File.WriteAllText(ConfigHelper.ChannelsLinkedPath, JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
                     await Context.Channel.SendMessageAsync(message);
                 }
                 else
@@ -124,7 +124,7 @@ namespace ChannelLinkerBot.Modules
                 }
                 await Context.Channel.SendMessageAsync(message);
 
-                File.WriteAllText("GuildSettingsList.json", JsonConvert.SerializeObject(CommandHandler.GuildSettingsList));
+                File.WriteAllText(ConfigHelper.GuildSettingsListPath, JsonConvert.SerializeObject(CommandHandler.GuildSettingsList));
             }
 
         }
@@ -197,12 +197,12 @@ namespace ChannelLinkerBot.Modules
 
                     owners.Add(be);
                 }
-                if (File.Exists("owners.json"))
+                if (File.Exists(ConfigHelper.OwnersPath))
                 {
-                    File.Delete("owners.json");
+                    File.Delete(ConfigHelper.OwnersPath);
                 }
-                File.WriteAllText("owners.json", JsonConvert.SerializeObject(owners, Formatting.Indented));
-                await Context.Channel.SendFileAsync("owners.json");
+                File.WriteAllText(ConfigHelper.OwnersPath, JsonConvert.SerializeObject(owners, Formatting.Indented));
+                await Context.Channel.SendFileAsync(ConfigHelper.OwnersPath);
             }
             catch (Exception)
             {
@@ -243,12 +243,12 @@ namespace ChannelLinkerBot.Modules
             {
 
                 var s = CommandHandler.MessagePrefixList.Remove(CommandHandler.MessagePrefixList.Find(x => x.GuildID == Context.Guild.Id));
-                File.WriteAllText("ChannelsLinked.json", JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
+                File.WriteAllText(ConfigHelper.ChannelsLinkedPath, JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
                 foreach (var item in CommandHandler.ChannelsLinkedList.FindAll(x => x.GuildID == Context.Guild.Id))
                 {
                     CommandHandler.ChannelsLinkedList.Remove(item);
                 }
-                File.WriteAllText("ChannelsLinked.json", JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
+                File.WriteAllText(ConfigHelper.ChannelsLinkedPath, JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
                 await Context.Channel.SendMessageAsync("All links and prefix have been deleted!");
             }
             catch (Exception)
@@ -342,7 +342,7 @@ namespace ChannelLinkerBot.Modules
             if (s)
             {
                 await Context.Channel.SendMessageAsync("Link have been removed!");
-                File.WriteAllText("ChannelsLinked.json", JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
+                File.WriteAllText(ConfigHelper.ChannelsLinkedPath, JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
 
             }
             else
@@ -376,7 +376,7 @@ namespace ChannelLinkerBot.Modules
                         CommandHandler.ChannelsLinkedList.Add(Channellink);
                         await Context.Channel.SendMessageAsync("Link have been saved!");
 
-                        File.WriteAllText("ChannelsLinked.json", JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
+                        File.WriteAllText(ConfigHelper.ChannelsLinkedPath, JsonConvert.SerializeObject(CommandHandler.ChannelsLinkedList));
                     }
                     else
                     {
@@ -409,7 +409,7 @@ namespace ChannelLinkerBot.Modules
             {
                 await Context.Channel.SendMessageAsync("Prefix deleted!");
             }
-            File.WriteAllText("MessagePrefix.json", JsonConvert.SerializeObject(CommandHandler.MessagePrefixList));
+            File.WriteAllText(ConfigHelper.MessagePrefixPath, JsonConvert.SerializeObject(CommandHandler.MessagePrefixList));
         }
         public Stream URLToStream(string URL)
         {

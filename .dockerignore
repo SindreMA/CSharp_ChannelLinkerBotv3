@@ -41,6 +41,11 @@ Dockerfile*
 .gitignore
 .gitattributes
 
+# Environment files (secrets)
+.env
+*.env
+!.env.example
+
 # Documentation
 *.md
 README*

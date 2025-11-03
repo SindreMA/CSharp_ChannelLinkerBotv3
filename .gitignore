@@ -5,3 +5,7 @@
 *.env
 !.env.example
 CSharp_ChannelLinkerBotv3/OldVersion/
+
+# Config directory (exclude sensitive files but keep structure)
+CSharp_ChannelLinkerBotv3/config/*
+!CSharp_ChannelLinkerBotv3/config/.env.example
